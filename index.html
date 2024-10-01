@@ -6,15 +6,65 @@
     <title>Document</title>
 </head>
 <body>
-   <h1>Cadastro</h1>
+    <div>
+        <form action="">
+        <!--Primeira parte: Cadastro de perfil-->
+            <h1>Cadastro</h1>
+            <label for="fnome">Nome:</label>
+            <input type="fnome"id="fnome" nome="fnome">
+    
+            <label for="email">Email:</label>
+            <input type="email"id="email" name="email">
+    
+            <label for="pwd">Senha:</label>
+            <input type="password"id="pwd" name="pwd" minlength="8">
+            <label for="pwd">confirma Senha</label>
+            
+            <input type="confirmpassword"id="pwd" name="pwd" minlength="8">
+            <label for="Idade">Idade:</label>
+    
+            <input type="radio" id = "acima de 17" name="fav_language" value="Acima de 17">
+            <label for="acima de 17">acima de 17</label><br>
+    
+            <input type="radio" id = "abaixo de 17" name="fav_language" value="Abaixo de 17">
+            <label for="abaixo de 17">Abaixo ou igual 17</label><br>
+       
+            <fieldset>
+          <!--Segunda parte: Dados-->
+            </fieldset>
+            <legend>2 perfil</legend>
+            <label for="w3review">Descrição</label>
+            textarea id="w3review" name="w3review" cols="30" rows="4"></textarea>
 
-   <form action="/action_page.php">
-    <label for="fnome">Nome:</label>
-    <input type="fnome"id="fnome" nome="fnome"><br><br>
-    <label for="email">Email:</label>
-    <input type="email"id="email" name="email"><br><br>
-    <label for="pwd">Senha:</label>
-    <input type="password"id="pwd" name="pwd" minlength="8"><br><br>
+            <label for="ddlTrabalho">Perfil Trabalho:</label>
+            <section name="ddlTrabalho" id="ddlTrabalho"></section>
+            <optgroup label = "web">
+
+            </optgroup>
+        </form>
+    </div>
+   
+
+
+       
+        <textarea>
+        <label for="ddlTrabalho">Perfil Trabalho:</label>
+        <section name="ddlTrabalho" id="ddlTrabalho">
+         <optgroup label="web"></optgroup>
+        <option value="java">java developer</option>
+        <option value="PHP">php developer</option>
+        <option value="c++">c++ developer</option>
+        
+      
+    </section>
+    <label for="Interese">Interese:</label>
+    <input type="radio" id = "Administrativo" name="fav_language" value="Administrativo">
+    <label for="Administrativo">Administrativo</label><br>
+    <input type="radio" id = "Analista" name="fav_language" value="Analista">
+    <label for="Analista">Analista</label>
+    <input type="radio" id = "Design" name="fav_language" value="Design">
+    <label for="Design">Design</label>
+    <input type="Enviar dados" value="Enviar dados">
    </form>
 </body>
 </html>
