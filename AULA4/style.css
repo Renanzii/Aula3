@@ -1,0 +1,30 @@
+#cap1{
+    color: blue;
+    
+    text-align:center;
+}
+
+.info {
+    background-color: aqua;
+}
+.fom{
+    background-color: aqua;
+}
+.curso{
+    background-color: rgb(182, 177, 177);
+}
+.fom2{
+    background-color: aqua;
+}
+.idioma{
+    background-color: rgb(182, 177, 177);
+}
+.skill{
+    background-color: aqua;
+}
+.soft{
+    background-color: rgb(182, 177, 177);
+}
+div.cent{
+    text-align: center; 
+}
